@@ -33,6 +33,7 @@ public class Main {
 					System.out.println(s);
 				}
 				nextWish = false;
+				sc.close();
 				break;
 			default:
 				System.out.println("Scelta non valida");
