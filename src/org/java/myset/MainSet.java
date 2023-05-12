@@ -13,7 +13,7 @@ public class MainSet {
 		Set<Integer> randomNumbers = new HashSet<>();
 		
 		while(randomNumbers.size() < 5) {
-			int random = rnd.nextInt(2, 12);
+			int random = rnd.nextInt(2, 13);
 			randomNumbers.add(random);
 		}
 		
